@@ -91,16 +91,16 @@ public class StatisticServiceImpl implements StatisticService {
 		if(CHROME.getType().equals(statistic.getBrowserName())) {
 			statisticDTO.setChromeRedirectCount(statisticDTO.getChromeRedirectCount() + 1);
 		}
-		if(FIREFOX.getType().equals(statistic.getBrowserName())) {
+		else if(FIREFOX.getType().equals(statistic.getBrowserName())) {
 			statisticDTO.setMozillaRedirectCount(statisticDTO.getMozillaRedirectCount() + 1);
 		}
-		if(OPERA.getType().equals(statistic.getBrowserName())) {
+		else if(OPERA.getType().equals(statistic.getBrowserName())) {
 			statisticDTO.setOperaRedirectCount(statisticDTO.getOperaRedirectCount() + 1);
 		}
-		if(IE.getType().equals(statistic.getBrowserName())) {
+		else if(IE.getType().equals(statistic.getBrowserName())) {
 			statisticDTO.setIeRedirectCount(statisticDTO.getIeRedirectCount() + 1);
 		}
-		if(EDGE.getType().equals(statistic.getBrowserName())) {
+		else if(EDGE.getType().equals(statistic.getBrowserName())) {
 			statisticDTO.setEdgeRedirectCount(statisticDTO.getEdgeRedirectCount() + 1);
 		}
 	}

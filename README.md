@@ -1,4 +1,4 @@
-# Welcome to URL minimizer!  
+# Welcome to URL minimizer! 
 ### All table creates automatic by Hibernate.
 #### API starts with /api/v1/minimizer
 ##### 1. @POST /api/v1/minimizer/url/create - creating mini-url
